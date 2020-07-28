@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css' rel='stylesheet' type='text/css'>
+</head>
+<style>
+    * { 
+        font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; 
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 70px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .sentence-box {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .title {
+        font-size: 50px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        font-weight: bold;
+    }
+    
+    .content {
+        margin: 0;
+    }
+
+    .toss-link {
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    .card-box {
+        width: 400px;
+        height: 500px;
+    }
+
+    .card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 370px;
+        height: 60px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 8px;
+        box-shadow:
+        0 30px 60px 12px rgba(0, 0, 33, 0.05),
+        0 4px 24px 0 rgba(0, 0, 33, 0.05),
+        0 0 1px 0 rgba(0, 0, 33, 0.09) ;
+    }
+
+    .bank-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 13px;
+    }
+
+    .balance {
+        margin-right: 13px;
+        font-weight: bold;
+    }
+    
+    .bank-name {
+        margin-left: 9px;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="boast">
+            <div class="sentence-box">
+                <p class="title">계좌 관리는 번거롭지만</p>
+                <p class="title">토스는 쉽습니다.</p>
+            </div>
+            <p class="content">간편한 인증 한 번으로</p>
+            <p class="content">소유한 계좌를 한 번에 관리할 수 있습니다.</p>
+
+            <a href="https://toss.im/">
+                <p class="toss-link">자세히 알아보기  ></p>
+            </a>
+        </div>
+        <div class="card-box">
+            <div class="card">
+                <div class="bank-box">
+                    <img style="width: 30px; height: 30px;" src="./bank_logo/logo_1.png" alt="국민은행">
+                    <p class="bank-name">국민은행</p>
+                </div>
+                <p class="balance">2,134,000원</p>
+            </div>
+            <div class="card">
+                <div class="bank-box">
+                    <img style="width: 30px; height: 30px;" src="./bank_logo/logo_3.png" alt="신한은행">
+                    <p class="bank-name">신한은행</p>
+                </div>
+                <p class="balance">1,126,600원</p>
+            </div>
+            <div class="card">
+                <div class="bank-box">
+                    <img style="width: 30px; height: 30px;" src="./bank_logo/logo_4.png" alt="하나은행">
+                    <p class="bank-name">하나은행</p>
+                </div>
+                <p class="balance">684,000원</p>
+            </div>
+            <div class="card">
+                <div class="bank-box">
+                    <img style="width: 30px; height: 30px;" src="./bank_logo/logo_5.png" alt="우리은행">
+                    <p class="bank-name">우리은행</p>
+                </div>
+                <p class="balance">339,050원</p>
+            </div>
+            <div class="card">
+                <div class="bank-box">
+                    <img style="width: 30px; height: 30px;" src="./bank_logo/logo_2.png" alt="NH 농협은행">
+                    <p class="bank-name">NH 농협은행</p>
+                </div>
+                <p class="balance">1,412,000원</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
